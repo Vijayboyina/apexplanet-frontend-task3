@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apex Planet Task 3 - Image Carousel & Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Apex Planet Internship – Task 3</h1>
+    <p>🌄 Image Carousel || 🌦️ Weather Application</p>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-container">
+
+    <!-- Image Carousel (Left Side) -->
+   <section class="carousel-container">
+  <h2> 🌄Image Carousel</h2>
+  <div class="carousel">
+           <img src="images/sunset.jpg" alt="Sunsetm">
+           <img src="images/Mountain.jpg" alt="Mountain">
+           <img src="images/Forest.jpg" alt="Forest">
+           <img src="images/ocean.jpg" alt="Beach">
+           <img src="images/waterfall.jpg" alt="Waterfall">
+
+  </div>
+  <div class="buttons">
+    <button id="prev">⟨</button>
+    <button id="next">⟩</button>
+  </div>
+</section>
+
+
+    <!-- Weather API Section (Right Side) -->
+    <section class="weather-section">
+      <h2>🌦️ Weather Application</h2>
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button id="getWeather">Get Weather</button>
+      <div id="weatherResult"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Developed by: <strong>Vijay S R</strong> | Apex Planet Internship | Task-3</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
